@@ -8,13 +8,13 @@
         <listener-class>com.sun.xml.ws.transport.http.servlet.WSServletContextListener</listener-class>
     </listener>
     <servlet>
-        <servlet-name>ExampleService</servlet-name>
+        <servlet-name>EdifactMx</servlet-name>
         <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>ExampleService</servlet-name>
-        <url-pattern>/ExampleService</url-pattern>
+        <servlet-name>EdifactMx</servlet-name>
+        <url-pattern>/EdifactMx</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
